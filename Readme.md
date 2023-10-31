@@ -32,7 +32,7 @@ create a virtual environment with the following.
 ### Installing Dependencies
 for detailed code walk through  clone this repo 
 ```bash
-git clone https://github.com/sokistar24/intro_to_rl.git
+git clone https://github.com/sokistar24/7088_cem.git
 ```
 ```bash
 conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib pytorch
