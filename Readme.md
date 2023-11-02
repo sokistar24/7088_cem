@@ -23,6 +23,7 @@ agent must navigate from the start position to the goal without falling into hol
 </div>
 image source : https://medium.com/mlearning-ai/a-deep-dive-into-reinforcement-learning-q-learning-and-deep-q-learning-on-a-10x10-frozenlake-c76d56810a46
 Author : Nandan Grover
+
 ## Installation
 
 ### Prerequisites
