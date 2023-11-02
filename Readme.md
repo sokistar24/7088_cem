@@ -40,10 +40,11 @@ conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib pytorch
 Activate the environment uisng 
 ```bash
 conda activate intro_to_rl
+```
 ```bash
 pip install swig
 ```
-```
+
 Open a notebook and run the code cell below to install the gymnasium API for frozen lake
 ```bash
 pip install gymnasium[toy-text]
