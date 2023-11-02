@@ -21,7 +21,8 @@ agent must navigate from the start position to the goal without falling into hol
 <div style="text-align: center;">
   <img src="images/frozen_lake.png" alt="Frozen Lake" title="Frozen Lake" width="500" height="auto" />
 </div>
-
+image source : https://medium.com/mlearning-ai/a-deep-dive-into-reinforcement-learning-q-learning-and-deep-q-learning-on-a-10x10-frozenlake-c76d56810a46
+Author : Nandan Grover
 ## Installation
 
 ### Prerequisites
