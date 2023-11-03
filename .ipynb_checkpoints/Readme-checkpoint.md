@@ -57,6 +57,9 @@ pip install gymnasium[classic-control]
 ```bash
 pip install gymnasium[box2d]
 ```
+```bash
+pip install stable-baselines3
+```
 ## Usage 
 To start the JupyterLab server, run the following command 
 in the terminal or command prompt:
