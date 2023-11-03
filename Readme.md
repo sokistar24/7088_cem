@@ -52,6 +52,9 @@ Open a notebook and run the code cell below to install the gymnasium API for fro
 pip install gymnasium[toy-text]
 ```
 ```bash
+pip install gymnasium[classic-control]
+```
+```bash
 pip install gymnasium[box2d]
 ```
 ## Usage 

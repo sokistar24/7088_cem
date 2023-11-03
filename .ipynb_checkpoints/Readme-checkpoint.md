@@ -15,7 +15,7 @@ In this project, we will use the
 Frozen Lake environment to demonstrate reinforcement
 learning algorithm (Q learning )
 
-. 
+## Installation
 The environment simulates a frozen lake where an 
 agent must navigate from the start position to the goal without falling into holes.
 <div style="text-align: center;">
@@ -23,7 +23,8 @@ agent must navigate from the start position to the goal without falling into hol
 </div>
 image source : https://medium.com/mlearning-ai/a-deep-dive-into-reinforcement-learning-q-learning-and-deep-q-learning-on-a-10x10-frozenlake-c76d56810a46
 Author : Nandan Grover
-## Installation
+
+
 
 ### Prerequisites
 
@@ -49,6 +50,9 @@ pip install swig
 Open a notebook and run the code cell below to install the gymnasium API for frozen lake
 ```bash
 pip install gymnasium[toy-text]
+```
+```bash
+pip install gymnasium[classic-control]
 ```
 ```bash
 pip install gymnasium[box2d]
