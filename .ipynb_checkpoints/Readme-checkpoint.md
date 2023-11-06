@@ -37,7 +37,7 @@ for detailed code walk through  clone this repo
 git clone https://github.com/sokistar24/7088_cem_rl.git
 ```
 ```bash
-conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib pytorch
+conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib torch
 ```
 Activate the environment uisng 
 ```bash
