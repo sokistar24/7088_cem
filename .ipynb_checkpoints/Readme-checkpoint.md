@@ -1,64 +1,54 @@
-# Introduction to Reinforcement Learning using the Frozen Lake Environment
+# Introduction to Artificial Intelligence 7088 CEM Module
 
-Welcome to this introductory reinforcement learning project, where we will explore reinforcement learning algorithms using the Frozen Lake environment from the OpenAI Gym library.
-
+This section of the Lab would cover Convolutional Neural Networks(CNNs) and Reinforcement Learning
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Installation](#installation)
-3. [Usage](#usage)
+1. [Introduction to Convultional Neural  Networks](#Image classification)
+2. [Introduction to Reinforcement Learning](#Introduction to MNIST Handwritten digit classification)
+3. [Installation](#installation)
+4. [Usage](#usage)
+
+## For the CNN section what we would cover
+1. [Mnist handwritten digits classification ](#MNIST)
+2. [Cifar10 data  classification ](#Cifar10 )
+3. [Using Kaggle and other data sources ](#Kaggle)
 
 
-## Overview
+## For the RL section what we would cover
+1. [Qlearning using frozen lake environemnt ](#frozen lake)
+2. [Deep Reinforcement Learning for continous state and action space](#Carpole )
 
-In this project, we will use the 
-Frozen Lake environment to demonstrate reinforcement
-learning algorithm (Q learning )
-
-## Installation
-The environment simulates a frozen lake where an 
-agent must navigate from the start position to the goal without falling into holes.
 <div style="text-align: center;">
-  <img src="images/frozen_lake.png" alt="Frozen Lake" title="Frozen Lake" width="500" height="auto" />
+  <img src="images/DQN_learning_circle.png" alt="Reinforcement Learning" title="Reinforcement Learning" width="500" height="auto" />
 </div>
-image source : https://medium.com/mlearning-ai/a-deep-dive-into-reinforcement-learning-q-learning-and-deep-q-learning-on-a-10x10-frozenlake-c76d56810a46
-Author : Nandan Grover
-
-
 
 ### Prerequisites
-
-To run this project, you will need to have anaconda or mini conda already installed:
-create a virtual environment with the following.
+For the RL section of the lab, you will need to have anaconda or mini conda already installed:
+the Anaconda_setup.pdf include a step by step guid on installation of anaconda and creating a virtual environment
 
 ### Installing Dependencies
-for detailed code walk through  clone this repo 
+The codes for the lab can be found in Aula under the CNN and RL section alternatively clone this repo 
 ```bash
-git clone https://github.com/sokistar24/7088_cem_rl.git
+git clone https://github.com/sokistar24/7088_cem.git
 ```
 ```bash
-conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib torch
+conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib pytorch
 ```
 Activate the environment uisng 
 ```bash
 conda activate intro_to_rl
+
 ```
 ```bash
 pip install swig
 ```
-
 Open a notebook and run the code cell below to install the gymnasium API for frozen lake
+
 ```bash
 pip install gymnasium[toy-text]
 ```
 ```bash
-pip install gymnasium[classic-control]
-```
-```bash
 pip install gymnasium[box2d]
-```
-```bash
-pip install stable-baselines3
 ```
 ## Usage 
 To start the JupyterLab server, run the following command 

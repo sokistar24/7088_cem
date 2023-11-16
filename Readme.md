@@ -29,7 +29,7 @@ the Anaconda_setup.pdf include a step by step guid on installation of anaconda a
 ### Installing Dependencies
 The codes for the lab can be found in Aula under the CNN and RL section alternatively clone this repo 
 ```bash
-git clone https://github.com/sokistar24/7088_cem_rl.git
+git clone https://github.com/sokistar24/7088_cem.git
 ```
 ```bash
 conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib pytorch
