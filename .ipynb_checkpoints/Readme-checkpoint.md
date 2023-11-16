@@ -1,4 +1,4 @@
-# Introduction to Artificial Intelligence 7088 CEM Module
+# 7088CEM - Artificial Neural Networks 
 
 This section of the Lab would cover Convolutional Neural Networks(CNNs) and Reinforcement Learning
 ## Table of Contents
