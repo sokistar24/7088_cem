@@ -24,7 +24,7 @@ This section of the Lab would cover Convolutional Neural Networks(CNNs) and Rein
 
 ### Prerequisites
 For the RL section of the lab, you will need to have anaconda or mini conda already installed:
-the Anaconda_setup.pdf include a step by step guid on installation of anaconda and creating a virtual environment
+the Anaconda_guide.md include a step by step guid on installation of anaconda and creating a virtual environment
 
 ### Installing Dependencies
 The codes for the lab can be found in Aula under the CNN and RL section alternatively clone this repo 
